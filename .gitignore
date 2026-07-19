@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+.env
+*.sqlite3
+
+# 前端
+node_modules/
+dist/
+.vite/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# 日志/临时文件
+*.log
+*.tmp
