@@ -50,7 +50,10 @@ npm run dev
 
 ## 📸 效果预览
 
-（建议放两张项目截图：一张项目列表页，一张用例生成结果页）
+<img width="2547" height="932" alt="b193af08a9bd1120949431f4bcbd356b" src="https://github.com/user-attachments/assets/b85159f9-5cb6-4428-9f80-970d266dad0f" />
+<img width="2408" height="1330" alt="d306e7d97ee14e8f56da5d99557bfb0d" src="https://github.com/user-attachments/assets/ce642a1b-e17b-4516-8ef1-f06436814fe8" />
+<img width="2394" height="1380" alt="25f386a787d69bb35ce47e39a58030df" src="https://github.com/user-attachments/assets/86d11f4d-e12a-4248-8543-98be81566640" />
+
 
 ## 📁 项目结构
 
@@ -71,7 +74,6 @@ npm run dev
 
 ## 📝 后续规划
 
-- [ ] 接入真实 AI API（当前为模拟模式）
 - [ ] 支持用例导出为 Excel / Markdown
 - [ ] 支持用例编辑和版本管理
 - [ ] 支持批量生成
