@@ -3,8 +3,10 @@ import json
 
 import os
 from dotenv import load_dotenv
+from pathlib import Path
 
-load_dotenv()  # 加载 .env 文件中的变量
+env_path = Path(r"D:\ai-test-platform\ai-test-platform\.env")
+load_dotenv(env_path)
 
 API_KEY = os.getenv("SILICONFLOW_API_KEY", "")
 BASE_URL = "https://api.siliconflow.cn/v1"
