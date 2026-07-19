@@ -1,7 +1,12 @@
 from openai import OpenAI
 import json
 
-API_KEY = "登录硅基流动找APIKEY"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # 加载 .env 文件中的变量
+
+API_KEY = os.getenv("SILICONFLOW_API_KEY", "")
 BASE_URL = "https://api.siliconflow.cn/v1"
 MODEL_ID = "Qwen/Qwen3.5-9B"  # 免费模型
 
